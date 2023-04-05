@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <form>
+            <div>
+            <label> First name:</label><input type="text" name="fname" required  placeholder="Enter your name" autocomplete="on"><br>
+            <label> Last name:</label><input type="text" name="lname" ><br>
+
+           <label>Enter your email</label><input type="email" name="mail"><br>
+
+           <label> Tpye your password:</label><input type="password" name="psw" maxlength="8" size="20px" pattern="[a-z]{3}[A-Z]{1}[0-9]{4}"><br><br>
+
+           <label>Enter your category:</label><br>
+           <input type="radio">male<br>
+           <input type="radio">female<br>
+
+           <label>Enter your birthdate</label><input type="date" name="birthday" disabled><br>
+
+           <label>upload file</label><input  type="file"  name="file" accept="image/png , image/jpeg"><br>
+
+           <label>Enter your phone number:</label><input tpye="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12"><br>
+
+           <label>Enter your subjects</label><br>
+           <input type="checkbox">english<br>
+           <input type="checkbox">maths<br>
+           <input type="checkbox">physics<br><br>
+
+           <input type="submit" name="save" value="click to submit">
+           <input type="reset" name="reset" value="click for reset"><br>
+            </div>
+        </form>
+    </table>
+</body>
+</html>
